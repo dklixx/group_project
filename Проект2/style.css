@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,regular,500,600,700,800,900);
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+       background-color:#f8f9fa ; 
+    }
+    
+}
+@media screen and (max-width: 678px) {
+    body{
+       background-color: #f8f9fa;
+  }
+
+}
+
+
+
+body{
+    background-color: #f8f9fa;
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+}
+.container {
+
+    text-align: center;
+    width: 1280px;
+    margin: 0px auto;
+    
+    
+}
+.text1 {
+    color:black;
+    text-align: center;
+
+    
+}
+
+.Photo {
+    border-radius: 500px; 
+    border: 7px solid  gray; 
+    box-shadow: 0 0 7px #666; 
+    width: 200px;
+    height: 200px;
+    margin-right: 70px;
+    margin-left: 70px;
+}
+.imagesContainer{
+    display: flex;
+    margin: 100px;
+    justify-content: space-between;
+
+
+}
+.icon{
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    transition: 0.2s;
+}
+.icon img{
+
+    width: 20px;
+}
+.icon:hover{
+    border-radius: 15px;
+}
+.underImagesText{
+    width: 800px;
+    margin:0 auto;
+    color: gray;
+    font-size: 20px;
+}
+.contacts{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 150px;
+    margin: 0 auto;
+}
+.footerBack{
+    background-color: white;
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer div{
+    margin: 20px 0px;
+}
