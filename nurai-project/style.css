@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+#last-container{
+    background-image: url(https://sun9-34.userapi.com/impg/LOIDuK3XLTe-jVnzT71aHsqrkCpIhVBxWQRkZA/DaEhuZDc5H8.jpg?size=480x280&quality=95&sign=18cd001972cb6acc991784c78d4f5862&type=album);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+}
+.text-center-container{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+
+}
+#contact-us{
+    font-size: 41px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+.place::placeholder {
+    color: rgb(214, 207, 207);
+    font-weight: 900;
+    font-size: 15px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.place{
+    width: 500px;
+    margin: 10px;
+    padding: 25px;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 18px;
+}
+.place:focus {
+    outline-color: rgba(204, 204, 0, 0.787);
+}
+#textarea{
+    height: 212px;
+}
+.send-button button{
+    padding: 20px 40px;
+    background-color: rgb(218, 218, 25);
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.send-button{
+    display: flex;
+    justify-content: center;
+}
+.send-button button:hover{
+    background-color: rgb(194, 194, 0);
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer-row{
+    margin: 20px 0;
+    color: rgb(79, 76, 76);
+}
+#footer-section2{
+    width: 20%;
+    display: flex;
+    padding: 10px;
+}
+.follow-img{
+    position: absolute;
+    width: 100%;
+}
+
+.icons:hover{
+    background-color: rgba(0, 0, 0, 0.216);
+}
+#footer-section3{
+    padding: 8px;
+}
+#footer-section3 a{
+    text-decoration: none;
+    color: rgb(243, 215, 31);
+    margin: 10px;
+}
+#footer-section3 a:hover{
+    text-decoration:underline;
+}
+.icons{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+    border-radius: 100%;
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    #last-container{
+        background-image: url(https://sun9-34.userapi.com/impg/LOIDuK3XLTe-jVnzT71aHsqrkCpIhVBxWQRkZA/DaEhuZDc5H8.jpg?size=480x280&quality=95&sign=18cd001972cb6acc991784c78d4f5862&type=album);
+        background-position: center;
+        height : 130vh;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    
+    }
+    .form-container{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .send-button button{
+        padding: 20px 40px;
+        background-color: rgb(218, 218, 25);
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 30px;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-section1{
+        margin: 0;
+    }
+    #footer-section2{
+        margin: 0;
+    }
+    #footer-section3{
+        margin: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    #contact-us{
+        font-size: 34px;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        display: flex;
+        justify-content: center;
+        
+    
+    }
+    .text-center-container{
+        
+        padding-top: 50px;
+        
+    
+    }
+    #textarea{
+        height: 70px;
+        width: 100%;
+        margin-top: 320px;
+    }
+    #last-container{
+        background-image: url(https://sun9-34.userapi.com/impg/LOIDuK3XLTe-jVnzT71aHsqrkCpIhVBxWQRkZA/DaEhuZDc5H8.jpg?size=480x280&quality=95&sign=18cd001972cb6acc991784c78d4f5862&type=album);
+        background-position: center;
+        height : 150vh;
+        width:100%;
+        margin: 0;
+        padding: 0;
+    
+    }
+    .form-container{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+    .form-column1{
+        width:100%;
+        height: 10px;
+    }
+    .send-button button{
+        padding: 20px 40px;
+        background-color: rgb(218, 218, 25);
+        color: white;
+        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 17px;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 30px;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+    }
+    footer{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    #footer-section1{
+        margin: 0;
+    }
+    #footer-section2{
+        margin: 0;
+    }
+    #footer-section3{
+        margin: 0;
+    }
+
+
+}
+
+
+
+
